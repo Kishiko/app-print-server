@@ -12,6 +12,15 @@ $app['packager'] = 'ClearFoundation';
 $app['license'] = 'GPLv3';
 $app['license_core'] = 'LGPLv3';
 $app['description'] = lang('print_server_app_description');
+$app['powered_by'] = array(
+    'packages' => array(
+        'elasticsearch' => array(
+            'name' => 'ClearFoundation',
+            'version' => '2.3.1-1',
+            'url' => 'http://www.clearfoundation.com/',
+        ),
+    ),
+);
 
 /////////////////////////////////////////////////////////////////////////////
 // App name and categories
